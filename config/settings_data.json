@@ -137,6 +137,26 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "13669795325273674392": {
+        "type": "shopify:\/\/apps\/releasit-cod-form\/blocks\/app-embed\/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "9696655121035291526": {
+        "type": "shopify:\/\/apps\/rapi\/blocks\/app-embed\/99617c17-a32b-4e70-a883-7a155610d032",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "6603664506335945664": {
+        "type": "shopify:\/\/apps\/transtore-language-translate\/blocks\/switcher_embed_block\/afeffe82-e563-4f78-90f4-f1e3d96286c3",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

@@ -10,8 +10,8 @@
       "settings": {
         "color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
         "full_width": true,
-        "paragraph-6c2afd0410387cad0588d0dc29fc04fd": null,
-        "header-9446ef218b6b9c8bd6ce19786870a045": null,
+        "paragraph-bd18e2057d9216085334c2af354bc839": null,
+        "header-8bbe2051ae4f459c011b283fafaa2744": null,
         "padding_top": 40,
         "padding_bottom": 52
       },
@@ -28,7 +28,7 @@
           "type": "paragraph",
           "disabled": false,
           "settings": {
-            "text": "<p>Ще получите промо код за<strong>-10% отстъпка<\/strong>на посочения от вас<strong>имейл<\/strong>.<\/p>"
+            "text": "<p>Ще получите промо код за <strong>-10% отстъпка <\/strong>на посочения от вас <strong>имейл<\/strong>.<\/p>"
           }
         },
         "email_form_KwgNQ": {
