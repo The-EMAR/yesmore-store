@@ -1,0 +1,73 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "bg"
+  },
+  "sections": {
+    "newsletter_HefxV": {
+      "type": "newsletter",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
+        "full_width": true,
+        "paragraph-6c2afd0410387cad0588d0dc29fc04fd": null,
+        "header-9446ef218b6b9c8bd6ce19786870a045": null,
+        "padding_top": 40,
+        "padding_bottom": 52
+      },
+      "blocks": {
+        "heading_Ny33A": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "Вземи -10% отстъпка",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_jmdzg": {
+          "type": "paragraph",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Ще получите промо код за<strong>-10% отстъпка<\/strong>на посочения от вас<strong>имейл<\/strong>.<\/p>"
+          }
+        },
+        "email_form_KwgNQ": {
+          "type": "email_form",
+          "disabled": false,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ny33A",
+        "paragraph_jmdzg",
+        "email_form_KwgNQ"
+      ]
+    },
+    "footer": {
+      "settings": {
+        "color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
+        "newsletter_enable": false,
+        "newsletter_heading": "Вземи -10% отстъпка"
+      },
+      "blocks": {
+        "image_MyA9n": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-mobile-orange-white-3.png",
+            "image_width": 180,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_MyA9n"
+      ]
+    }
+  },
+  "order": [
+    "newsletter_HefxV",
+    "footer"
+  ]
+}

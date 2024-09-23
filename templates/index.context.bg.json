@@ -1,0 +1,42 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "bg"
+  },
+  "sections": {
+    "image_banner": {
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner-orange-white.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "color_scheme": "scheme-2",
+        "image_behavior": "ambient",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      },
+      "blocks": {
+        "heading": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "button": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      }
+    },
+    "featured_collection": {
+      "settings": {
+        "title": "Най-харесвани",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "padding_top": 36
+      },
+      "blocks": {
+      }
+    }
+  }
+}
