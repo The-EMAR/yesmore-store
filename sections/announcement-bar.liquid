@@ -69,9 +69,11 @@
                     {%- endif -%}
                   </div><!-- /.bracelet__logo -->
 
-                  <div class="bracelet__slogan">
-                    <p>Гривна "Енергиен Щит"</p>
-                  </div><!-- /.bracelet__slogan -->
+                  {% if product.metafields.custom.slogan != blank %}
+                    <div class="bracelet__slogan">
+                       <p>{{ product.metafields.custom.slogan }}</p>
+                    </div><!-- /.bracelet__slogan -->
+                  {% endif %}
 
                   {% comment %} <div class="bracelet__views">
                     {% assign timestamp = 'now' | date: "%s" %} <!-- Current timestamp in seconds -->
