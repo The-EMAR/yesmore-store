@@ -18,7 +18,8 @@
 .bracelet-announcement-bar .bracelet__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: left;
+  gap: 1rem;
 }
 
 .bracelet-announcement-bar .bracelet__logo {
@@ -30,11 +31,21 @@
   color: grey;
 }
 
+.bracelet-announcement-bar .bracelet__slogan {
+  padding-left: 1rem;
+  border-left: .1rem solid rgba(18, 18, 18, 0.208);
+}
+
+.bracelet-announcement-bar .bracelet__slogan p {
+  font-weight: 600;
+  margin: 0;
+}
+
 /* Header */
 
 .utility-bar {
   border-bottom: unset !important;
-  /* box-shadow: 0 -1rem 4rem #ff6f91; */
+  box-shadow: 0 -1rem 4rem #00000020;
 }
 
 /* Page width */
