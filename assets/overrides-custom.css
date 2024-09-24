@@ -1,0 +1,47 @@
+/* Overrides Custom CSS */
+
+.rapi-bundles__bar :checked+label .rapi-bundles__bar-radio {
+  box-shadow: 0 0 0 2px var(--rapi-check-mark-color) !important;
+}
+
+/* Bracelet Announcement Bar CSS */
+
+.bracelet-announcement-bar {
+  width: 100%;
+  padding: 1.3rem 0 .5rem;
+}
+
+.bracelet-announcement-bar .page-width {
+  padding: 0;
+}
+
+.bracelet-announcement-bar .bracelet__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bracelet-announcement-bar .bracelet__logo {
+  display: inline-block;
+  /* margin-bottom: -1rem; */
+}
+
+.bracelet-announcement-bar .bracelet__views p {
+  color: grey;
+}
+
+/* Header */
+
+.utility-bar {
+  border-bottom: unset !important;
+  /* box-shadow: 0 -1rem 4rem #ff6f91; */
+}
+
+/* Page width */
+
+/* Mobile */
+@media (max-width: 767px) {
+  .utility-bar__grid.page-width {
+    padding: 0 1.5rem !important;
+  } 
+}

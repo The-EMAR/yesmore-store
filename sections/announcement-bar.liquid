@@ -40,12 +40,57 @@
               class="announcement-bar__link link link--text focus-inset animate-arrow"
             >
           {%- endif -%}
-          <p class="announcement-bar__message h5">
-            <span>{{ section.blocks.first.settings.text | escape }}</span>
-            {%- if section.blocks.first.settings.link != blank -%}
-              {{- 'icon-arrow.svg' | inline_asset_content -}}
-            {%- endif -%}
-          </p>
+
+          {% if product.template_suffix == 'bracelet' %}
+            {% comment %} <p class="announcement-bar__message h5">
+              ✅ {{ product.title }}
+            </p> {% endcomment %}
+
+            <div class="bracelet-announcement-bar">
+              <div class="page-width">
+                <div class="bracelet__inner">
+                  <div class="bracelet__logo">
+                    {%- if settings.logo != blank -%}
+                      {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+                      {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+                      {% capture sizes %}(min-width: 750px) {{ settings.logo_width }}px, 50vw{% endcapture %}
+                      {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
+                      {{ settings.logo | image_url: width: 600 | image_tag:
+                        class: 'header__heading-logo',
+                        widths: widths,
+                        height: logo_height,
+                        width: settings.logo_width,
+                        alt: logo_alt,
+                        sizes: sizes,
+                        preload: true
+                      }}
+                    {%- else -%}
+                      <span class="h2">{{ shop.name }}</span>
+                    {%- endif -%}
+                  </div><!-- /.bracelet__logo -->
+
+                  {% comment %} <div class="bracelet__views">
+                    {% assign timestamp = 'now' | date: "%s" %} <!-- Current timestamp in seconds -->
+                    {% assign random_number = timestamp | modulo: 301 %} <!-- Generate number between 0 and 300 -->
+                    {% assign random_number = random_number | plus: 500 %} <!-- Shift the range to between 500 and 800 -->
+
+                    <!-- Output the random number -->
+                    <p><i class="fa-solid fa-eye"></i> {{ random_number }}</p>
+
+                  </div><!-- /.bracelet__views --> {% endcomment %}
+
+                </div><!-- /.bracelet__inner -->
+              </div><!-- /.page-width -->
+            </div><!-- /.bracelet-announcement-bar -->
+          {% else %}
+            <p class="announcement-bar__message h5">
+              <span>{{ section.blocks.first.settings.text | escape }}</span>
+              {%- if section.blocks.first.settings.link != blank -%}
+                {{- 'icon-arrow.svg' | inline_asset_content -}}
+              {%- endif -%}
+            </p>
+          {% endif %}
+          
           {%- if section.blocks.first.settings.link != blank -%}
             </a>
           {%- endif -%}
@@ -138,6 +183,7 @@
         </style>
       {%- endif -%}
     {%- endif -%}
+
     <div class="localization-wrapper">
       {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
         <localization-form class="small-hide medium-hide">

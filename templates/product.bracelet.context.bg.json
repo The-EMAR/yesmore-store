@@ -1,0 +1,58 @@
+{
+  "parent": "product.bracelet.json",
+  "context": {
+    "market": "bg"
+  },
+  "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "buy_buttons": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "icon_with_text_wqEAR": {
+          "type": "icon-with-text",
+          "disabled": false,
+          "settings": {
+            "layout": "horizontal",
+            "header-d360400a7915b761f35f56c3096853db": null,
+            "icon_1": "star",
+            "image_1": null,
+            "heading_1": "Здраве",
+            "icon_2": "return",
+            "image_2": null,
+            "heading_2": "30 дни право на връщане",
+            "icon_3": "truck",
+            "image_3": null,
+            "heading_3": "Доставка с преглед и тест"
+          }
+        },
+        "collapsible_tab_MMxLp": {
+          "type": "collapsible_tab",
+          "disabled": false,
+          "settings": {
+            "heading": "Право на връщане",
+            "icon": "none",
+            "content": "<ul><li><strong>Срок за връщане:<\/strong> Можете да върнете продукт в рамките на 30 дни от датата на получаване.<\/li><\/ul><p><\/p><ul><li><strong>Условия за връщане:<\/strong> Продуктът трябва да е в оригиналната си опаковка, без следи от употреба.<\/li><\/ul><p><\/p><ul><li><strong>Замяна на продукт:<\/strong> Можете да замените продукт за друг размер, цвят или модел.<\/li><\/ul><p><\/p><ul><li><strong>Връщане на сума:<\/strong> Връщането на сумата се извършва в рамките на 14 дни от датата на получаване на върнатия продукт. <br\/><strong>Получаването на парите обратно се осъществява по банков път.<\/strong><\/li><\/ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "buy_buttons",
+        "icon_with_text_wqEAR",
+        "collapsible_tab_MMxLp"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "related-products"
+  ]
+}
