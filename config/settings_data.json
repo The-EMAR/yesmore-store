@@ -76,7 +76,7 @@
     "text_boxes_shadow_blur": 5,
     "media_border_thickness": 1,
     "media_border_opacity": 5,
-    "media_radius": 10,
+    "media_radius": 8,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
     "media_shadow_vertical_offset": 4,
@@ -102,7 +102,7 @@
     "brand_description": "<p><\/p>",
     "brand_image": "shopify:\/\/shop_images\/Banner-mobile-orange-white.png",
     "brand_image_width": 100,
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61564227917286",
     "social_instagram_link": "",
     "social_youtube_link": "",
     "social_tiktok_link": "",
@@ -417,5 +417,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }

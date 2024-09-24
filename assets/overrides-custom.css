@@ -45,3 +45,19 @@
     padding: 0 1.5rem !important;
   } 
 }
+
+/* Footer Block */
+
+/* Mobile */
+@media (max-width: 767px) {
+ .footer-block .footer-block__heading {
+  text-align: center;
+ } 
+
+ .footer-block .footer-block__details-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ }
+}

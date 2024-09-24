@@ -10,8 +10,8 @@
       "settings": {
         "color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
         "full_width": true,
-        "paragraph-bd18e2057d9216085334c2af354bc839": null,
-        "header-8bbe2051ae4f459c011b283fafaa2744": null,
+        "paragraph-9f5d177523cf3964dcf0864ac6779cd4": null,
+        "header-0fa5222af277c53251132b0e31862842": null,
         "padding_top": 40,
         "padding_bottom": 52
       },
@@ -59,10 +59,19 @@
             "image_width": 180,
             "alignment": "center"
           }
+        },
+        "link_list_6LydB": {
+          "type": "link_list",
+          "disabled": false,
+          "settings": {
+            "heading": "Контакти",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "image_MyA9n"
+        "image_MyA9n",
+        "link_list_6LydB"
       ]
     }
   },

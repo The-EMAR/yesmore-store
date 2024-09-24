@@ -4,8 +4,79 @@
     "market": "bg"
   },
   "sections": {
+    "collapsible_content_K7GiU": {
+      "type": "collapsible-content",
+      "disabled": false,
+      "settings": {
+        "caption": "Научи повече за продукта",
+        "heading": "Най-често задавани въпроси ?",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
+        "open_first_collapsible_row": false,
+        "header-5cce783c301a6d10d03e5917a7e0856e": null,
+        "image": null,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "header-d6bd1cab8ef5cac4130c9be56d764453": null,
+        "padding_top": 0,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "collapsible_row_V8qGW": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_1.value }}",
+            "icon": "eye",
+            "row_content": "<p>{{ product.metafields.custom.answer_1.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JhERk": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_2.value }}",
+            "icon": "eye",
+            "row_content": "<p>{{ product.metafields.custom.answer_2 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bUpt9": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_3.value }}",
+            "icon": "eye",
+            "row_content": "<p>{{ product.metafields.custom.answer_3 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tepRU": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_4.value }}",
+            "icon": "eye",
+            "row_content": "<p>{{ product.metafields.custom.answer_4 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_V8qGW",
+        "collapsible_row_JhERk",
+        "collapsible_row_bUpt9",
+        "collapsible_row_tepRU"
+      ]
+    },
     "main": {
       "settings": {
+        "media_size": "medium",
+        "image_zoom": "hover"
       },
       "blocks": {
         "buy_buttons": {
@@ -15,10 +86,10 @@
         },
         "icon_with_text_wqEAR": {
           "type": "icon-with-text",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
-            "header-d360400a7915b761f35f56c3096853db": null,
+            "header-4d7f2a9b069e78cecd736ecc6dd6b269": null,
             "icon_1": "star",
             "image_1": null,
             "heading_1": "Здраве",
@@ -32,7 +103,7 @@
         },
         "collapsible_tab_MMxLp": {
           "type": "collapsible_tab",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "heading": "Право на връщане",
             "icon": "none",
@@ -49,10 +120,18 @@
         "icon_with_text_wqEAR",
         "collapsible_tab_MMxLp"
       ]
+    },
+    "related-products": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
     }
   },
   "order": [
     "main",
+    "collapsible_content_K7GiU",
     "related-products"
   ]
 }
