@@ -4,5 +4,19 @@
     "market": "bg"
   },
   "sections": {
+    "header": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "announcement-bar": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }

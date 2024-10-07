@@ -16,16 +16,16 @@
         "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
         "open_first_collapsible_row": false,
-        "header-5cce783c301a6d10d03e5917a7e0856e": null,
+        "header-cdd86706962928421c6fe1856eed672b": null,
         "image": null,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "header-d6bd1cab8ef5cac4130c9be56d764453": null,
+        "header-b2c36d03c01834153476ce290a3268fa": null,
         "padding_top": 0,
         "padding_bottom": 36
       },
       "blocks": {
-        "collapsible_row_V8qGW": {
+        "collapsible_row_cefnf": {
           "type": "collapsible_row",
           "disabled": false,
           "settings": {
@@ -35,17 +35,17 @@
             "page": ""
           }
         },
-        "collapsible_row_JhERk": {
+        "collapsible_row_MdBXG": {
           "type": "collapsible_row",
           "disabled": false,
           "settings": {
-            "heading": "{{ product.metafields.custom.question_2.value }}",
+            "heading": "{{ product.metafields.custom.question_5.value }}",
             "icon": "eye",
-            "row_content": "<p>{{ product.metafields.custom.answer_2 | metafield_tag }}<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.answer_5 | metafield_tag }}<\/p>",
             "page": ""
           }
         },
-        "collapsible_row_bUpt9": {
+        "collapsible_row_f9d8F": {
           "type": "collapsible_row",
           "disabled": false,
           "settings": {
@@ -55,7 +55,17 @@
             "page": ""
           }
         },
-        "collapsible_row_tepRU": {
+        "collapsible_row_Px8Yp": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "{{ product.metafields.custom.question_2.value }}",
+            "icon": "eye",
+            "row_content": "<p>{{ product.metafields.custom.answer_2 | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xwPHE": {
           "type": "collapsible_row",
           "disabled": false,
           "settings": {
@@ -67,16 +77,17 @@
         }
       },
       "block_order": [
-        "collapsible_row_V8qGW",
-        "collapsible_row_JhERk",
-        "collapsible_row_bUpt9",
-        "collapsible_row_tepRU"
+        "collapsible_row_cefnf",
+        "collapsible_row_MdBXG",
+        "collapsible_row_f9d8F",
+        "collapsible_row_Px8Yp",
+        "collapsible_row_xwPHE"
       ]
     },
     "main": {
       "settings": {
         "media_size": "medium",
-        "image_zoom": "hover"
+        "image_zoom": "none"
       },
       "blocks": {
         "buy_buttons": {
@@ -89,7 +100,7 @@
           "disabled": true,
           "settings": {
             "layout": "horizontal",
-            "header-4d7f2a9b069e78cecd736ecc6dd6b269": null,
+            "header-9d4e987944a8373271cf4b5eaeabe212": null,
             "icon_1": "star",
             "image_1": null,
             "heading_1": "Здраве",

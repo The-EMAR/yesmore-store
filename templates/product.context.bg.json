@@ -4,5 +4,79 @@
     "market": "bg"
   },
   "sections": {
-  }
+    "collapsible_content_EHbf9": {
+      "type": "collapsible-content",
+      "disabled": false,
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "header-e8afc0dcbde79e6fc94335649191443a": null,
+        "image": null,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "header-d980527aeb82a2fda47fd7b32f2e8a94": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+        "collapsible_row_6Wm3d": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_gxXAn": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yy8EU": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_HNYLf": {
+          "type": "collapsible_row",
+          "disabled": false,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6Wm3d",
+        "collapsible_row_gxXAn",
+        "collapsible_row_Yy8EU",
+        "collapsible_row_HNYLf"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "collapsible_content_EHbf9"
+  ]
 }
