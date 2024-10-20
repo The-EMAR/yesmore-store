@@ -1,0 +1,125 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .emmbed-links iframe {
+    width: 100%;
+    max-width: 60%;
+  }
+
+  /* Mobile */
+  @media (max-width: 767px) {
+    .emmbed-links iframe {
+      max-width: 100%;
+    }
+  }
+
+  .emmbed-links .embed-links__body {
+    text-align: center;
+  }
+{%- endstyle -%}
+
+{% comment %} Prodylji s headera da se vijda da Desktop i da se krie na mobile {% endcomment %}
+
+<div class="emmbed-links section-{{ section.id }}-padding">
+  <div class="page-width">
+    <header class="embed-links__head">
+      <h2
+        style="text-align: center;"
+        class="{{ section.settings.heading_size }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+      >{{ section.settings.heading }}</h2>
+    </header><!-- /.embed-links__head -->
+
+    {% if section.settings.iframe_field != blank %}
+      <div class="embed-links__body">
+        {{ section.settings.iframe_field }}
+      </div><!-- /.embed-links__body -->
+    {% endif %}
+  </div><!-- /.page-width -->
+</div><!-- /.emmbed-links -->
+
+{% schema %}
+  {
+  "name": "Embed Links",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "t:sections.rich-text.blocks.heading.settings.heading.default",
+      "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "liquid",
+      "id": "iframe_field",
+      "label": "Iframe",
+      "info": "Embed iframe code here"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "presets": [
+    {
+      "name": "Embed Links"
+    }
+  ]
+}  
+{% endschema %}

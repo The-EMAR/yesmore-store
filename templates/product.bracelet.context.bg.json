@@ -16,13 +16,13 @@
         "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
         "open_first_collapsible_row": false,
-        "header-cdd86706962928421c6fe1856eed672b": null,
+        "header-bd4f101c6712298a249383913b9ed46e": null,
         "image": null,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "header-b2c36d03c01834153476ce290a3268fa": null,
+        "header-3fda1aaf0602c69b2a231ceb5ce93e35": null,
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 12
       },
       "blocks": {
         "collapsible_row_cefnf": {
@@ -84,10 +84,29 @@
         "collapsible_row_xwPHE"
       ]
     },
+    "embed_links_xybMG": {
+      "type": "embed-links",
+      "disabled": false,
+      "settings": {
+        "heading": "Още от Facebook",
+        "heading_size": "h2",
+        "iframe_field": "<iframe src=\"https:\/\/www.facebook.com\/plugins\/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D122116119290474263%26set%3Dp.122116119290474263%26type%3D3&show_text=true&width=500\" width=\"500\" height=\"693\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\"><\/iframe>",
+        "header-ed8f0548964d6f013d1089de70c20a6d": null,
+        "padding_top": 0,
+        "padding_bottom": 52
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
+    },
     "main": {
       "settings": {
         "media_size": "medium",
-        "image_zoom": "none"
+        "media_fit": "cover",
+        "image_zoom": "none",
+        "padding_top": 12
       },
       "blocks": {
         "buy_buttons": {
@@ -100,7 +119,7 @@
           "disabled": true,
           "settings": {
             "layout": "horizontal",
-            "header-9d4e987944a8373271cf4b5eaeabe212": null,
+            "header-ec605779be261ef2740e39501371e83a": null,
             "icon_1": "star",
             "image_1": null,
             "heading_1": "Здраве",
@@ -143,6 +162,7 @@
   "order": [
     "main",
     "collapsible_content_K7GiU",
+    "embed_links_xybMG",
     "related-products"
   ]
 }

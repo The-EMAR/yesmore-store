@@ -11,6 +11,17 @@
   padding: 1.3rem 0 .5rem;
 }
 
+.bracelet-announcement-bar.hidden {
+  display: block !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .bracelet-announcement-bar.hidden {
+    display: none !important;
+  }
+}
+
 .bracelet-announcement-bar .page-width {
   padding: 0;
 }
@@ -24,6 +35,7 @@
 
 .bracelet-announcement-bar .bracelet__logo {
   display: inline-block;
+  filter: invert(1);
   /* margin-bottom: -1rem; */
 }
 
@@ -54,21 +66,32 @@
 @media (max-width: 767px) {
   .utility-bar__grid.page-width {
     padding: 0 1.5rem !important;
-  } 
+  }
 }
 
 /* Footer Block */
 
 /* Mobile */
 @media (max-width: 767px) {
- .footer-block .footer-block__heading {
-  text-align: center;
- } 
+  .footer-block .footer-block__heading {
+    text-align: center;
+  }
 
- .footer-block .footer-block__details-content {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
- }
+  .footer-block .footer-block__details-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* Product Media */
+
+/* Mobile */
+@media (max-width: 767px) {
+  .product__media-item {
+    padding-top: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
 }

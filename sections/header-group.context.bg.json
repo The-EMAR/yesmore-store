@@ -7,6 +7,8 @@
     "header": {
       "disabled": false,
       "settings": {
+        "color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
+        "show_line_separator": false
       },
       "blocks": {
       }
@@ -14,6 +16,7 @@
     "announcement-bar": {
       "disabled": false,
       "settings": {
+        "show_line_separator": true
       },
       "blocks": {
       }

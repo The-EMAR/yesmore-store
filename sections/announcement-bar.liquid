@@ -46,7 +46,7 @@
               ✅ {{ product.title }}
             </p> {% endcomment %}
 
-            <div class="bracelet-announcement-bar">
+            <div class="bracelet-announcement-bar {% if product.template_suffix == 'bracelet' or product.template_suffix == 'gorilla-glass' %} hidden{% endif %}">
               <div class="page-width">
                 <div class="bracelet__inner">
                   <div class="bracelet__logo">

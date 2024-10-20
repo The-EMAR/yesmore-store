@@ -18,10 +18,10 @@
         "button_label": "Button label",
         "button_link": "",
         "color_scheme": "scheme-1",
-        "header-bae9ea4a930024f675f938fd7bbc5c7b": null,
+        "header-65bbc74641a0bf2514b7c68c116c6cf5": null,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "header-9e90b74734c21d6f3a4f1175275dcd16": null,
+        "header-c3a20f74b6d840ed0a40e981a677b67b": null,
         "padding_top": 36,
         "padding_bottom": 36
       },
@@ -78,11 +78,11 @@
         "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-27c68d0a-0d69-4666-b333-e6f460ecfeeb",
         "open_first_collapsible_row": false,
-        "header-abdeb96bc04ea4cf561777ddfd0a9467": null,
+        "header-c9c0e987ddf744ebe0e0429db1ba6502": null,
         "image": null,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "header-8ceb7be5f863ec2a55bd290af199319d": null,
+        "header-c34f13f8747a8fb93ea332489aca53aa": null,
         "padding_top": 36,
         "padding_bottom": 36
       },
@@ -156,8 +156,8 @@
   },
   "order": [
     "main",
-    "related-products",
+    "collapsible_content_wDh77",
     "multicolumn_Wm6Wx",
-    "collapsible_content_wDh77"
+    "related-products"
   ]
 }
